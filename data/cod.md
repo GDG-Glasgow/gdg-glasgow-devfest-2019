@@ -1,7 +1,7 @@
 ### 1. Purpose
 
-A primary goal of [GDG Lviv](http://lviv.gdg.org.ua/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
-GDG Lviv prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
+A primary goal of [GDG Glasgow](https://gdg-glasgow.com/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
+GDG Glasgow prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 We invite all those who participate in Google Developers Group to help us create safe and positive experiences for everyone.
@@ -24,7 +24,7 @@ The following behaviors are expected and requested of all community members:
 
 The following actions are considered harassment and are unacceptable within our community:
 
-- Violence, threats of violence or violent language directed against another person.
+- Violence, threats of violence, or violent language directed against another person.
 - Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
 - Posting or displaying sexually explicit or violent material.
 - Posting or threatening to post other people’s personally identifying information ("doxing").
@@ -40,13 +40,12 @@ The following actions are considered harassment and are unacceptable within our 
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
 Anyone asked to stop unacceptable behavior is expected to comply immediately.
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event.
+If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
 
 ### 6. Scope
 
-We expect all community participants to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications about community business. This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to affect the safety and well-being of community members adversely.
+We expect all community participants to abide by this Code of Conduct in all community venues – online and in-person – as well as in all one-on-one communications. This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to affect the safety and well-being of community members adversely.
 
 ### 7. Contact info
 
-- Oleh Zasadnyy, +38 093 486 64 60, [o.zasadnyy@gdg.org.ua](mailto:o.zasadnyy@gdg.org.ua)
-- Sofiya Huts, +38 093 486 14 25, [s.huts@gdg.org.ua](mailto:s.huts@gdg.org.ua)
+- GDG Glasgow [gdgglasgow@gmail.com](mailto:gdgglasgow@gmail.com)
