@@ -5,11 +5,11 @@
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyAyE4ZJ9opsD_vmnkrQrFcwClsFUmWx9eE",
-    "authDomain": "dev2019-eebd4.firebaseapp.com",
+    "authDomain": "localhost",
     "databaseURL": "https://dev2019-eebd4.firebaseio.com",
     "projectId": "dev2019-eebd4",
     "storageBucket": "dev2019-eebd4.appspot.com",
     "messagingSenderId": "851093456275"
   },
-  "googleMapApiKey": "AIzaSyDwgyI8vdL-sZ6UWyghNgYHKfrGhf8JiPQ"
+  "googleMapApiKey": "AIzaSyDjQjWgeKXwiRzQEJ7KjVUa6FPbXJiFvQs"
 }
