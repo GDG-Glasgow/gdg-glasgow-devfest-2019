@@ -3,7 +3,7 @@
   "description": "Learn from the best and become inspired!",
   "image": "images/gdgglasgowlogo.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "November 2, 2019",
+  "dates": "November 9, 2019",
   "partnershipProposition": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/Sponsor%20Prospectus.pdf?alt=media&token=62d275d5-2380-476f-afb0-4e7542a9ffc3",
   "share": "Share",
   "followOur": "Follow our",
@@ -76,7 +76,7 @@
           "newTab": true
         },
         {
-          "name": "Call for Papers",
+          "name": "Call for Speakers",
           "url": "https://forms.gle/Mbec314M6Bk6PXZb7",
           "newTab": true
         },
@@ -104,7 +104,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "300"
+        "number": "250"
       },
       "days": {
         "label": "Days",
@@ -112,11 +112,11 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "15"
+        "number": "7"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "3"
+        "label": "Track",
+        "number": "1"
       }
     }
   },

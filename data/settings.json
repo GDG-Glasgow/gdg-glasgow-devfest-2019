@@ -3,8 +3,8 @@
     "name": "GDG Glasgow",
     "url": "https://gdg-glasgow.com/"
   },
-  "startDate": "2019-11-02T10:00:00+01:00",
-  "endDate": "2019-11-02T18:00:00+01:00",
+  "startDate": "2019-11-09T10:00:00+01:00",
+  "endDate": "2019-11-09T18:00:00+01:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#673AB7",
@@ -112,20 +112,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "",
+    "name": "Kelvin Gallery",
     "city": "Glasgow",
-    "short": "Glasgow, Scotland, United Kingdom",
-    "address": "",
+    "short": "Glasgow, Scotland",
+    "address": "Gilbert Scott Building, University of Glasgow, Glasgow G12 8QQ",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 55.872044,
+      "longitude": -4.288724,
+      "zoom": 17
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 55.872044,
+      "longitude": -4.288724
     },
-    "description": ""
+    "description": "The Kelvin Gallery stunningly mixes contemporary and traditional design and creates inspiration for all those that walk through its doors."
   },
   "mediaQueries": {
     "xs": {

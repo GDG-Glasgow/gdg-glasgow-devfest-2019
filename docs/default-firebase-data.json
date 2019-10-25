@@ -1,22 +1,22 @@
 {
-  "blog" : {
-    "c4p" : {
-      "backgroundColor" : "#3647a5",
-      "brief" : "We are looking for speakers for GDG DevFest Glasgow",
-      "content" : "We are looking for speakers for GDG DevFest Glasgow. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field.  \n\nWhy is it cool to speak at the DevFest? You will get to interact with an incredible audience hungry to learn, network with others, enjoy the lovely city of Glasgow, and work on yourself. Our form is [available here](https://forms.gle/Mbec314M6Bk6PXZb7). If you would like to contact us for more information or submit a talk to discuss it, our email is [admin@gdg-glasgow.com](mailto:admin@gdg-glasgow.com).",
-      "image" : "/images/posts/c4p.jpg",
-      "published" : "2019-07-11",
-      "source" : "",
-      "title" : "We're looking for speakers"
+  "blog": {
+    "c4p": {
+      "backgroundColor": "#3647a5",
+      "brief": "We are looking for speakers for GDG DevFest Glasgow",
+      "content": "We are looking for speakers for GDG DevFest Glasgow. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field.  \n\nWhy is it cool to speak at the DevFest? You will get to interact with an incredible audience hungry to learn, network with others, enjoy the lovely city of Glasgow, and work on yourself. Our form is [available here](https://forms.gle/Mbec314M6Bk6PXZb7). If you would like to contact us for more information or submit a talk to discuss it, our email is [admin@gdg-glasgow.com](mailto:admin@gdg-glasgow.com).",
+      "image": "/images/posts/c4p.jpg",
+      "published": "2019-07-11",
+      "source": "",
+      "title": "We're looking for speakers"
     },
-    "dfua19-announced" : {
-      "backgroundColor" : "#2196F3",
-      "brief" : "It is official. GDG DevFest Glasgow 2019 is going to take place in Glasgow, on November 02.",
-      "content" : "It is official. GDG DevFest Glasgow 2019 is in motion. We do not have any details yet but will update this page as well as our social media once we confirm everything. Follow us on [Facebook](https://www.facebook.com/gdgglasgow/) and join [Meetup](https://www.meetup.com/Glasgow-New-Technology-Meetup/) to keep up with announcements and conference updates.",
-      "image" : "/images/posts/df19.jpg",
-      "published" : "2019-07-01",
-      "source" : "",
-      "title" : "Announcing GDG DevFest Glasgow 2019"
+    "dfua19-announced": {
+      "backgroundColor": "#2196F3",
+      "brief": "It is official. GDG DevFest Glasgow 2019 is going to take place in Glasgow, on November 02.",
+      "content": "It is official. GDG DevFest Glasgow 2019 is in motion. We do not have any details yet but will update this page as well as our social media once we confirm everything. Follow us on [Facebook](https://www.facebook.com/gdgglasgow/) and join [Meetup](https://www.meetup.com/Glasgow-New-Technology-Meetup/) to keep up with announcements and conference updates.",
+      "image": "/images/posts/df19.jpg",
+      "published": "2019-07-01",
+      "source": "",
+      "title": "Announcing GDG DevFest Glasgow 2019"
     },
     "another-successful-devfest": {
       "backgroundColor": "#3647a5",
@@ -28,7 +28,7 @@
       "title": "Another successful DevFest!"
     }
   },
-  "gallery" : [
+  "gallery": [
     "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/_DSC3902.jpg?alt=media&token=192449ee-5638-403a-a941-6b520a06704d",
     "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/_DSC3914.jpg?alt=media&token=54f74250-ba31-4a93-a497-108e2c620db4",
     "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/_DSC3929.jpg?alt=media&token=87417022-6855-4072-8ff4-e57e4b513dc3",
@@ -37,134 +37,388 @@
     "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/_DSC4024.jpg?alt=media&token=933dde9c-f297-496a-8d5b-2323b9008b83",
     "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/_DSC4043.jpg?alt=media&token=7b42477a-b851-4a09-b106-83c09c3b3716"
   ],
-  "notifications" : {
-    "config" : {
-      "icon" : "",
-      "timezone" : "+01:00"
+  "notifications": {
+    "config": {
+      "icon": "",
+      "timezone": "+01:00"
     },
-    "messages" : { },
-    "subscribers" : { },
-    "test" : { },
-    "users" : { }
+    "messages": {},
+    "subscribers": {},
+    "test": {},
+    "users": {}
   },
-  "partners" : [ {
-    "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
-      "name" : "GDG Lviv",
-      "url" : "https://plus.google.com/102444623953913144164"
-    } ],
-    "order" : 0,
-    "title" : "Template Creator"
-  }, {
-    "logos" : [ {
+  "partners": [
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "../images/logos/gdg-lviv.svg",
+          "name": "GDG Lviv",
+          "url": "https://plus.google.com/102444623953913144164"
+        }
+      ],
       "order": 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
+      "title": "Template Creator"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "../images/logos/google.svg",
+          "name": "Google",
+          "url": "https://www.google.com.ua/intl/en/about/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "../images/logos/gdg-x.svg",
+          "name": "GDG[x]",
+          "url": "https://github.com/gdg-x"
+        }
+      ],
       "order": 1,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    } ],
-    "order": 1,
-    "title" : "General Partner"
-  } ],
-  "schedule" : {
-    "2019-11-02" : {
-      "dateReadable" : "November 2",
-      "timeslots" : [ ]
+      "title": "General Partner"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/Morgan_Stanley_Logo_1-1.png?alt=media&token=27239238-7a6a-4922-ba07-fb54a3c314f9",
+          "name": "Morgan Stanley",
+          "url": "https://www.morganstanley.com/"
+        }
+      ],
+      "order": 2,
+      "title": "Diamond Sponsor"
+    }
+  ],
+  "schedule": {
+    "2019-11-02": {
+      "dateReadable": "November 2",
+      "timeslots": [
+
+      ],
+      "tracks": [
+        {
+          "title": "Kelvin Gallery"
+        }
+      ]
     }
   },
-  "sessions" : { },
-  "speakers" : { },
-  "team" : [ {
-    "members" : [ {
-      "name" : "Hemang Kandwal",
-      "photo" : "/images/people/hemang.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/hemang.jpg?alt=media&token=74e65763-fcc1-4a9e-8b54-b186e418e82d",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/hemang-kandwal-804193b3/",
-        "name" : "LinkedIn"
-      } ],
-      "order": 0,
-      "title" : ""
-    }, {
-      "name" : "Marija Mumm",
-      "photo" : "/images/people/marija.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/marija.jpg?alt=media&token=f816cca5-b1fb-451f-8582-7f9f5f8e4208",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/marija-mumm-a38180100/",
-        "name" : "LinkedIn"
-      } ],
-      "order": 1,
-      "title" : ""
-    }, {
-      "name" : "Anguel Hristozov",
-      "photo" : "/images/people/anguel.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/anguel.jpg?alt=media&token=78f86cd6-d66b-4bc9-a1b6-0fb9e77a00d2",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/ahristozov",
-        "name" : "Linkedin"
-      } ],
-      "order": 2,
-      "title" : ""
-    }, {
-      "name" : "Milosz Krawiec",
-      "photo" : "/images/people/milo.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/milo.jpg?alt=media&token=3fcd3f7c-0004-4f09-a3cc-30c047f89313",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/miloszkrawiec/",
-        "name" : "LinkedIn"
-      } ],
-      "order": 3,
-      "title" : ""
-    }, {
-      "name" : "Nicolae Marton",
-      "photo" : "/images/people/nico.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/nico.png?alt=media&token=ed0d59f9-e902-49f6-b0c8-450ee091ac01",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/nicolae-marton-928651152/",
-        "name" : "LinkedIn"
-      } ],
-      "order": 4,
-      "title" : ""
-    }, {
-      "name" : "Matěj Žídek",
-      "photo" : "/images/people/matej.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/matej.jpg?alt=media&token=f22094b9-b12e-4660-b14a-b285e7002ff2",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/matej-zidek-b6a14412b/",
-        "name" : "LinkedIn"
-      } ],
-      "order": 5,
-      "title" : ""
-    }, {
-      "name" : "Adam Czyzewski",
-      "photo" : "/images/people/adam.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/adam.jpg?alt=media&token=bf40c0bb-b020-4e4b-b41d-4077f1cdc0a7",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/adam-czyzewski-88b19312a/",
-        "name" : "LinkedIn"
-      } ],
-      "order": 6,
-      "title" : ""
-    } ],
-    "title" : "Core Team"
-  } ],
-  "tickets" : [ ],
-  "triggers" : {
-    "images" : false
+  "sessions": {
+    "101": {
+      "complexity": "Intermediate",
+      "description": "Google Analytics continues to evolve and this presentation will offer hacks, insights, and inspiration. The talk will explore how Google Analytics can be used as part of the IoT using devices such as Raspberry Pis for recording and analysing everything from sensor data to physical switches. We’ll also look at bridging offline and asynchronous tracking sending measurement data in batches when connectivity is reestablished as well as pushing data from third party APIs into Google Analytics using free tools.",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "martin_hawksey"
+      ],
+      "tags": [
+        "Google Analytics",
+        "IoT"
+      ],
+      "title": "The Google Analytics of Things"
+    },
+    "102": {
+      "complexity": "Intermediate",
+      "description": "This session will be about Google Cloud Build. Audiences will be educated on what Cloud Build can do and how it helps increase the productivity of developers by providing an automated deployment pipeline as a code. Moreover, it will be told about the reasons for Cloud Build adoption, as well as the environment that Cloud Build may be fitted in. Furthermore, the instructions on how to use Cloud Build and integrate it with the existing GCP technologies will be demonstrated. ",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "arut_jinadit"
+      ],
+      "tags": [
+        "Google Cloud Build",
+        "Google Cloud"
+      ],
+      "title": "Google Cloud Build: What, Why and How."
+    },
+    "103": {
+      "complexity": "Intermediate",
+      "description": "OpenCue is a highly scalable open source render manager designed for the visual effects and animation industry. It provides a flexible architecture that allows you to tag and allocate jobs and tasks to specific machine types across multiple geographic locations, both on-premises and in the cloud. This talk will describe some of the highlight features of the open source project and demonstrate rendering an animation project in an OpenCue deployment running on Google Cloud Platform. The talk will also summarize the growing list of resources to help you learn more about OpenCue and deploy it in production.",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "sharif_salah"
+      ],
+      "tags": [
+        "GCP",
+        "OpenCue"
+      ],
+      "title": "Rendering film, TV, and games media on GCP with OpenCue"
+    },
+    "104": {
+      "complexity": "",
+      "description": "",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "polong_lin"
+      ],
+      "tags": [ "Machine Learning" ],
+      "title": ""
+    }
   },
-  "videos" : [ ],
+  "speakers": {
+    "martin_hawksey": {
+      "bio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services. In these roles, he has supported staff in the exploration and adoption of innovative approaches to teaching and learning. Martin was also an early adopter of Google Apps Script and this tool regularly features in the solutions he publishes and often integrates with other Google products, such as Google Maps, Google Charts and Google Analytics. As Chief Innovation, Technology and Community Officer at the Association for Learning Technology (ALT) his work continues to focus on how Google services can be used to support the development of ALT's member community.",
+      "company": "Association for Learning Technology",
+      "companyLogo": "/images/alt.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/alt.png?alt=media&token=4537f07e-d5ef-44d5-bbbf-6e8638236201",
+      "country": "",
+      "featured": false,
+      "name": "Martin Hawksey",
+      "photo": "/images/people/martin_hawksey.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/martin_hawksey.jpg?alt=media&token=29eb9952-0bda-4b9e-978a-cd3ddfd0d7fd",
+      "shortBio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/mhawksey",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/mhawksey",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "website",
+          "link": "https://mashe.hawksey.info",
+          "name": "Blog"
+        },
+        {
+          "link": "https://alt.ac.uk/",
+          "icon": "website",
+          "name": "Website"
+        }
+      ],
+      "order": 0,
+      "title": "GDE G Suite"
+    },
+    "arut_jinadit": {
+      "bio": "Arut is currently a software engineering student at the School of Computing Science, University of Glasgow. On the other hand, he is also a freelance developer who works remotely from his home country. Most of his responsibilities are developing applications for both client-side and server-side. Arut is passionate about learning new technologies that could help increase his team members' productivity as well as sharing it with the community.",
+      "company": " ",
+      "companyLogo": " ",
+      "companyLogoUrl": " ",
+      "country": " ",
+      "featured": false,
+      "name": "Arut Jinadit",
+      "photo": "/images/people/arut.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/arut.jpg?alt=media&token=b7f406f6-1682-4d60-9650-21fcfdbf8af0",
+      "shortBio": "Arut is a software engineering student at the School of Computing Science, University of Glasgow",
+      "socials": [
+        {
+          "icon": "medium",
+          "link": "https://medium.com/@arutjinadit ",
+          "name": "Medium"
+        }
+      ],
+      "order": 1,
+      "title": "A freelance software developer and a student"
+    },
+    "sharif_salah": {
+      "bio": "Sharif is a senior technical writer at Google Cloud currently focusing on media and entertainment. Sharif is also a contributor to the open source OpenCue project for rendering visual effects and animation projects.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/lockup_cloud_main.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/lockup_cloud_main.png?alt=media&token=b3f2fc5c-b989-489b-b36f-8812d5564185",
+      "country": " ",
+      "featured": false,
+      "name": "Sharif Salah",
+      "photo": "/images/people/sharif.jpeg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/SharifSalahProfile.jpg?alt=media&token=597454b1-f048-46a0-aea7-4c64ad1babc5",
+      "shortBio": "Sharif is a senior technical writer at Google Cloud currently focusing on media and entertainment.",
+      "socials": [
+        {
+          "icon": "github",
+          "name": "GitHub",
+          "link": "https://github.com/sharifsalah"
+        },
+        {
+          "icon": "linkedin",
+          "name": "LinkedIn",
+          "link": "https://www.linkedin.com/in/sharifsalah/"
+        },
+        {
+          "icon": "twitter",
+          "name": "Twitter",
+          "link": "https://twitter.com/sharif_salah"
+        }
+      ],
+      "order": 2,
+      "title": "Technical Writer, Google"
+    },
+    "polong_lin": {
+      "bio": "Polong is a Developer Advocate at Google, based in London, UK. He focuses on helping data scientists and data engineers leverage the cloud for machine learning & analytics. With a background in psychology, Polong particularly enjoys hearing about machine learning projects that intersect with human behaviour.",
+      "company": "Google",
+      "companyLogo": "/images/logos/google.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/google.svg?alt=media&token=1583750b-f43e-4d36-921d-87cca2f90f09",
+      "country": "United Kingdom",
+      "featured": false,
+      "name": "Polong Lin",
+      "photo": "/images/people/polong.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/polong.jpg?alt=media&token=f72043a1-2a6a-4456-95ff-19c638564367",
+      "shortBio": "Polong is a Developer Advocate at Google, based in London, UK.",
+      "socials": [
+        {
+          "link": "www.linkedin.com/in/polonglin",
+          "icon": "linkedin",
+          "name": "LinkedIn"
+        },
+        {
+          "link": "https://twitter.com/polonglin",
+          "icon": "twitter",
+          "name": "Twitter"
+        }
+      ],
+      "order": 3,
+      "title": "Developer Advocate, Data Science & Machine Learning"
+    }
+  },
+  "team": [
+    {
+      "members": [
+        {
+          "name": "Hemang Kandwal",
+          "photo": "/images/people/hemang.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/hemang.jpg?alt=media&token=74e65763-fcc1-4a9e-8b54-b186e418e82d",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/hemang-kandwal-804193b3/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 0,
+          "title": ""
+        },
+        {
+          "name": "Marija Mumm",
+          "photo": "/images/people/marija.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/marija.jpg?alt=media&token=f816cca5-b1fb-451f-8582-7f9f5f8e4208",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/marija-mumm-a38180100/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 1,
+          "title": ""
+        },
+        {
+          "name": "Anguel Hristozov",
+          "photo": "/images/people/anguel.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/anguel.jpg?alt=media&token=78f86cd6-d66b-4bc9-a1b6-0fb9e77a00d2",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/ahristozov",
+              "name": "Linkedin"
+            }
+          ],
+          "order": 2,
+          "title": ""
+        },
+        {
+          "name": "Milosz Krawiec",
+          "photo": "/images/people/milo.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/milo.jpg?alt=media&token=3fcd3f7c-0004-4f09-a3cc-30c047f89313",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/miloszkrawiec/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 3,
+          "title": ""
+        },
+        {
+          "name": "Nicolae Marton",
+          "photo": "/images/people/nico.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/nico.png?alt=media&token=ed0d59f9-e902-49f6-b0c8-450ee091ac01",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/nicolae-marton-928651152/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 4,
+          "title": ""
+        },
+        {
+          "name": "Matěj Žídek",
+          "photo": "/images/people/matej.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/matej.jpg?alt=media&token=f22094b9-b12e-4660-b14a-b285e7002ff2",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/matej-zidek-b6a14412b/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 5,
+          "title": ""
+        },
+        {
+          "name": "Adam Czyzewski",
+          "photo": "/images/people/adam.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/adam.jpg?alt=media&token=bf40c0bb-b020-4e4b-b41d-4077f1cdc0a7",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/adam-czyzewski-88b19312a/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 6,
+          "title": ""
+        }
+      ],
+      "title": "Core Team"
+    }
+  ],
+  "tickets": [
+    {
+      "available": false,
+      "currency": "£",
+      "ends": "",
+      "info": "",
+      "name": "Early Googler",
+      "price": 0,
+      "soldOut": true,
+      "starts": "Oct 19",
+      "url": "https://www.eventbrite.co.uk/e/gdg-glasgow-devfest-2019-tickets-68729015335"
+    },
+    {
+      "available": false,
+      "currency": "£",
+      "ends": "",
+      "info": "",
+      "name": "Regular Googler",
+      "price": 0,
+      "soldOut": false,
+      "starts": "Oct 26",
+      "url": "https://www.eventbrite.co.uk/e/gdg-glasgow-devfest-2019-tickets-68729015335"
+    },
+    {
+      "available": false,
+      "currency": "£",
+      "ends": "",
+      "info": "",
+      "name": "Late Googler",
+      "price": 0,
+      "soldOut": false,
+      "starts": "Nov 02",
+      "url": "https://www.eventbrite.co.uk/e/gdg-glasgow-devfest-2019-tickets-68729015335"
+    }
+  ],
+  "triggers": {
+    "images": false
+  },
+  "videos": [],
   "previousSpeakers": {
     "swav_kulinski": {
       "bio": "Swav is a Flutter GDE (Google Developer Expert) and the lead of Android Community of Practice at The App Business which he has grown from start. For the last two years he have been promoting Flutter within the business and outside with his clients. Swav shares all his knowledge from commercial and non commercial development in blog posts. He strongly believe that Flutter has the massive potential to become a mainstream mobile app platform and will make the developer community better as it is more affordable and is quite a pleasure to learn.",
@@ -175,11 +429,19 @@
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Swav.jpg?alt=media&token=f033e8fe-62c9-4cee-8dba-63f1ee7968aa",
       "sessions": {
         "2017": {
-          "tags": [ "flutter", "android", "web" ],
+          "tags": [
+            "flutter",
+            "android",
+            "web"
+          ],
           "title": "Introduction to Flutter"
         },
         "2018": {
-          "tags": [ "flutter", "android", "web" ],
+          "tags": [
+            "flutter",
+            "android",
+            "web"
+          ],
           "title": "Flutter - Disrupting the Mobile"
         }
       },
@@ -188,15 +450,18 @@
           "icon": "linkedin",
           "link": "https://www.linkedin.com/in/swavkulinski/",
           "name": "LinkedIn"
-        }, {
+        },
+        {
           "icon": "twitter",
           "link": "https://twitter.com/robotoasterdev",
           "name": "Twitter"
-        }, {
+        },
+        {
           "icon": "website",
           "link": "http://www.theappbusiness.com/",
           "name": "Website"
-        }, {
+        },
+        {
           "icon": "website",
           "link": "https://medium.com/@swav.kulinski",
           "name": "Blog"
@@ -213,11 +478,15 @@
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Doug.jpg?alt=media&token=0b276983-dc74-4f74-89dd-87f4f8708787",
       "sessions": {
         "2018": {
-          "tags": [ "web" ],
+          "tags": [
+            "web"
+          ],
           "title": "It's Time to Stop Stalling: Delivering Fast Video without the Buffering"
         },
         "2017": {
-          "tags": [ "android" ],
+          "tags": [
+            "android"
+          ],
           "title": "Profiling Android Network Transfers"
         }
       },
@@ -226,11 +495,13 @@
           "link": "https://dougsillars.com/",
           "icon": "website",
           "name": "Website"
-        }, {
+        },
+        {
           "link": "https://www.linkedin.com/in/dougsillars/",
           "icon": "linkedin",
           "name": "LinkedIn"
-        }, {
+        },
+        {
           "link": "https://twitter.com/dougsillars",
           "icon": "twitter",
           "name": "Twitter"
@@ -247,7 +518,12 @@
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Amanda.jpeg?alt=media&token=c2c4f079-05fd-4c56-8888-d655195cad1a",
       "sessions": {
         "2018": {
-          "tags": [ "machine learning", "google cloud platform", "gcp", "assistant" ],
+          "tags": [
+            "machine learning",
+            "google cloud platform",
+            "gcp",
+            "assistant"
+          ],
           "title": "Google Assistant: Interactions and Sentiments aiding Customers and Businesses"
         }
       },
@@ -256,15 +532,18 @@
           "link": "http://www.resolver.co.uk/",
           "icon": "website",
           "name": "Website"
-        }, {
+        },
+        {
           "link": "http://amanda.ml/",
           "icon": "website",
           "name": "Blog"
-        }, {
+        },
+        {
           "link": "https://www.linkedin.com/in/amanda-cavallaro-80a36241/",
           "icon": "linkedin",
           "name": "LinkedIn"
-        }, {
+        },
+        {
           "link": "http://www.twitter.com/chibichibibr",
           "icon": "twitter",
           "name": "Twitter"
@@ -281,7 +560,12 @@
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Martin.jpg?alt=media&token=bcd4dc31-cd39-461e-8e32-8f997c5c40aa",
       "sessions": {
         "2018": {
-          "tags": [ "web", "apps script", "google cloud platform", "gcp" ],
+          "tags": [
+            "web",
+            "apps script",
+            "google cloud platform",
+            "gcp"
+          ],
           "title": "All about Apps Script"
         }
       },
@@ -290,15 +574,18 @@
           "link": "https://alt.ac.uk/",
           "icon": "website",
           "name": "Website"
-        }, {
+        },
+        {
           "link": "https://mashe.hawksey.info/",
           "icon": "website",
           "name": "Blog"
-        }, {
+        },
+        {
           "link": "https://www.linkedin.com/in/mhawksey/",
           "icon": "linkedin",
           "name": "LinkedIn"
-        }, {
+        },
+        {
           "link": "https://twitter.com/mhawksey",
           "icon": "twitter",
           "name": "Twitter"
@@ -316,14 +603,17 @@
       "photoUrl": "",
       "sessions": {
         "2018": {
-          "tags": [ "google", "sre" ],
+          "tags": [
+            "google",
+            "sre"
+          ],
           "title": "SRE - Systems at Scale"
         }
       },
       "socials": [],
       "title": "SRE at Google"
     },
-    "mel_vecerik" : {
+    "mel_vecerik": {
       "bio": "Mel Vecerik is a research engineer at DeepMind.",
       "company": "DeepMind",
       "companyLogo": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/deepmind.png?alt=media&token=7a6ccc84-5807-4123-87cd-6685822fd9b3",
@@ -332,71 +622,86 @@
       "photoUrl": "",
       "sessions": {
         "2018": {
-          "tags": [ "deepmind", "reinforcement learning" ],
+          "tags": [
+            "deepmind",
+            "reinforcement learning"
+          ],
           "title": "Introduction to Reinforcement Learning"
         }
       },
       "socials": [],
       "title": "Research Engineer at Deepmind"
     },
-    "rupert_whitehead":{
-      "bio" : "Rupert Whitehead is a Developer Relations Regional lead at Google, responsible for the UK and Ireland. He is responsible for a number of programs including Google Developer Groups, Google Developer Experts, the Agencies Program, and more. His main focus is to help developers become more successful with Google’s technologies. Prior to Google, Rupert worked at Nokia and Symbian.",
-      "company" : "Google",
-      "companyLogo" : "/images/logos/google.svg",
-      "country" : "United Kingdom",
-      "name" : "Rupert Whitehead",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/rupertwhitehead.jpg?alt=media&token=f27b6fec-13e5-4e08-a4b0-579ae8e7345d",
+    "rupert_whitehead": {
+      "bio": "Rupert Whitehead is a Developer Relations Regional lead at Google, responsible for the UK and Ireland. He is responsible for a number of programs including Google Developer Groups, Google Developer Experts, the Agencies Program, and more. His main focus is to help developers become more successful with Google’s technologies. Prior to Google, Rupert worked at Nokia and Symbian.",
+      "company": "Google",
+      "companyLogo": "/images/logos/google.svg",
+      "country": "United Kingdom",
+      "name": "Rupert Whitehead",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/rupertwhitehead.jpg?alt=media&token=f27b6fec-13e5-4e08-a4b0-579ae8e7345d",
       "sessions": {
         "2017": {
-          "tags": [ "google", "machine learning" ],
+          "tags": [
+            "google",
+            "machine learning"
+          ],
           "title": "What's Google doing with Machine Learning?"
         }
       },
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/rupertwhitehead/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/rupertwhitehead?lang=en",
-        "name" : "Twitter"
-      } ],
-      "title" : "Developer Relations Regional Lead"
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/rupertwhitehead/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/rupertwhitehead?lang=en",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Developer Relations Regional Lead"
     },
     "augustin_zidek": {
       "bio": "Augustin Žídek studied Computer Science at the University of Cambridge. After graduating, he joined DeepMind where he currently works as a Research Engineer. He enjoys playing musical instruments, hiking and fixing things.",
       "company": "DeepMind",
-      "companyLogo" : "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/deepmind.png?alt=media&token=7a6ccc84-5807-4123-87cd-6685822fd9b3",
-      "country" : "United Kingdom",
-      "name" : "Augustin Žídek",
-      "photoUrl" : "",
+      "companyLogo": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/deepmind.png?alt=media&token=7a6ccc84-5807-4123-87cd-6685822fd9b3",
+      "country": "United Kingdom",
+      "name": "Augustin Žídek",
+      "photoUrl": "",
       "sessions": {
         "2017": {
-          "tags": [ "tensorflow" ],
+          "tags": [
+            "tensorflow"
+          ],
           "title": "What's the hype around Tensorflow?"
         }
       },
-      "socials" : [ ],
+      "socials": [],
       "title": "Research Engineer at Google DeepMind"
     },
     "jeff_dalton": {
       "bio": "Jeff Dalton is a lecturer in Information Retrieval at the University of Glasgow. His current research focuses on information retrieval and natural language processing, in particular, conversational search and agent systems. Previously, he has worked at Google in the Machine Intelligence research group. His research there focused on relation extraction for knowledge graph completion, health knowledge discovery, and response ranking in the Google Assistant.",
       "company": "University of Glasgow",
-      "companyLogo" : "",
-      "country" : "United Kingdom",
-      "name" : "Jeff Dalton",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/jeff.jpg?alt=media&token=914554a6-7beb-476b-ac2d-9b95d482732f",
+      "companyLogo": "",
+      "country": "United Kingdom",
+      "name": "Jeff Dalton",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/jeff.jpg?alt=media&token=914554a6-7beb-476b-ac2d-9b95d482732f",
       "sessions": {
         "2017": {
-          "tags": [ "google actions" ],
+          "tags": [
+            "google actions"
+          ],
           "title": "Actions on Google"
         }
       },
-      "socials" : [ {
-        "icon": "website",
-        "link": "http://www.dcs.gla.ac.uk/~jeff/",
-        "name": "Website"
-      } ],
+      "socials": [
+        {
+          "icon": "website",
+          "link": "http://www.dcs.gla.ac.uk/~jeff/",
+          "name": "Website"
+        }
+      ],
       "title": "Information Retrieval lecturer at the University of Glasgow"
     }
   }
