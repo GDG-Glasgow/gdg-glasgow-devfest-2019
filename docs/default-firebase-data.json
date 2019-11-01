@@ -52,30 +52,12 @@
       "logos": [
         {
           "order": 0,
-          "logoUrl": "../images/logos/gdg-lviv.svg",
-          "name": "GDG Lviv",
-          "url": "https://plus.google.com/102444623953913144164"
-        }
-      ],
-      "order": 0,
-      "title": "Template Creator"
-    },
-    {
-      "logos": [
-        {
-          "order": 0,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
           "url": "https://www.google.com.ua/intl/en/about/"
-        },
-        {
-          "order": 1,
-          "logoUrl": "../images/logos/gdg-x.svg",
-          "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
         }
       ],
-      "order": 1,
+      "order": 0,
       "title": "General Partner"
     },
     {
@@ -87,15 +69,153 @@
           "url": "https://www.morganstanley.com/"
         }
       ],
-      "order": 2,
+      "order": 1,
       "title": "Diamond Sponsor"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/glasgow_blue.jpg?alt=media&token=b5a40274-0bde-43cc-8813-4fbc91edbf89",
+          "name": "University of Glasgow",
+          "url": "https://www.gla.ac.uk/"
+        }
+      ],
+      "order": 2,
+      "title": "Venue Partner"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/hog.jpg?alt=media&token=12f6a007-b336-41c5-ac11-33f8325f3d6f",
+          "name": "",
+          "url": "https://thekiltedpig.co.uk/"
+        }
+      ],
+      "order": 3,
+      "title": "Food Partner"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/stickermule.png?alt=media&token=9d9cfb74-b260-4803-841e-b975848a174f",
+          "name": "Sticker Mule",
+          "url": "https://www.stickermule.com/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/banana-moon.svg?alt=media&token=c0667023-3c58-4062-b2a7-d1fccb3484a3",
+          "name": "Banana Moon Clothing",
+          "url": "https://www.banana-moon-clothing.co.uk/"
+        }
+      ],
+      "order": 4,
+      "title": "Merchandise Partners"
     }
   ],
   "schedule": {
     "2019-11-02": {
       "dateReadable": "November 2",
       "timeslots": [
-
+        {
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "sessions": [ {
+            "items": [ 106 ]
+          }]
+        },
+        {
+          "startTime": "10:30",
+          "endTime": "11:00",
+          "sessions": [ {
+            "items": [ 108 ]
+          }]
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:45",
+          "sessions": [ {
+            "items": [ 101 ]
+          }]
+        },
+        {
+          "startTime": "11:45",
+          "endTime": "11:55",
+          "sessions": [ {
+            "items": [ 105 ]
+          }]
+        },
+        {
+          "startTime": "11:55",
+          "endTime": "12:40",
+          "sessions": [ {
+            "items": [ 104 ]
+          }]
+        },
+        {
+          "startTime": "12:40",
+          "endTime": "13:30",
+          "sessions": [ {
+            "items": [ 107 ]
+          }]
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "14:15",
+          "sessions": [ {
+            "items": [ 103 ]
+          }]
+        },
+        {
+          "startTime": "14:15",
+          "endTime": "14:25",
+          "sessions": [ {
+            "items": [ 105 ]
+          }]
+        },
+        {
+          "startTime": "14:25",
+          "endTime": "15:10",
+          "sessions": [ {
+            "items": [ 109 ]
+          }]
+        },
+        {
+          "startTime": "15:10",
+          "endTime": "15:20",
+          "sessions": [ {
+            "items": [ 105 ]
+          }]
+        },
+        {
+          "startTime": "15:20",
+          "endTime": "16:05",
+          "sessions": [ {
+            "items": [ 102 ]
+          }]
+        },
+        {
+          "startTime": "16:05",
+          "endTime": "16:15",
+          "sessions": [ {
+            "items": [ 105 ]
+          }]
+        },
+        {
+          "startTime": "16:15",
+          "endTime": "17:00",
+          "sessions": [ {
+            "items": [ 109 ]
+          }]
+        },{
+          "startTime": "17:00",
+          "endTime": "18:00",
+          "sessions": [ {
+            "items": [ 110 ]
+          }]
+        }
       ],
       "tracks": [
         {
@@ -157,6 +277,36 @@
       ],
       "tags": [ "Machine Learning" ],
       "title": ""
+    },
+    "105": {
+      "description": "A small break to stretch about",
+      "icon": "coffee-break",
+      "title": "Small Break"
+    },
+    "106": {
+      "description": "Please check-in when arriving",
+      "icon": "registration",
+      "title": "Welcome and Check In"
+    },
+    "107": {
+      "description": "Lunch time!",
+      "icon": "lunch",
+      "title": "Lunch!"
+    },
+    "108": {
+      "description": "Sponsor and partner introduction",
+      "icon": "opening",
+      "title": "Starting ceremony"
+    },
+    "109": {
+      "description": "Unconfirmed talk",
+      "icon": "talk",
+      "title": "Uncomfirmed talk"
+    },
+    "110": {
+      "description": "Time to unwind",
+      "icon": "party",
+      "title": "Networking"
     }
   },
   "speakers": {
@@ -399,7 +549,7 @@
       "info": "",
       "name": "Regular Googler",
       "price": 0,
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Oct 26",
       "url": "https://www.eventbrite.co.uk/e/gdg-glasgow-devfest-2019-tickets-68729015335"
     },
