@@ -137,7 +137,7 @@
           "startTime": "11:00",
           "endTime": "11:45",
           "sessions": [ {
-            "items": [ 101 ]
+            "items": [ 109 ]
           }]
         },
         {
@@ -198,19 +198,6 @@
         },
         {
           "startTime": "16:05",
-          "endTime": "16:15",
-          "sessions": [ {
-            "items": [ 105 ]
-          }]
-        },
-        {
-          "startTime": "16:15",
-          "endTime": "17:00",
-          "sessions": [ {
-            "items": [ 109 ]
-          }]
-        },{
-          "startTime": "17:00",
           "endTime": "18:00",
           "sessions": [ {
             "items": [ 110 ]
@@ -226,18 +213,17 @@
   },
   "sessions": {
     "101": {
-      "complexity": "Intermediate",
-      "description": "Google Analytics continues to evolve and this presentation will offer hacks, insights, and inspiration. The talk will explore how Google Analytics can be used as part of the IoT using devices such as Raspberry Pis for recording and analysing everything from sensor data to physical switches. We’ll also look at bridging offline and asynchronous tracking sending measurement data in batches when connectivity is reestablished as well as pushing data from third party APIs into Google Analytics using free tools.",
+      "complexity": "",
+      "description": "",
       "language": "English",
       "presentation": "",
       "speakers": [
-        "martin_hawksey"
+        ""
       ],
       "tags": [
-        "Google Analytics",
-        "IoT"
+        ""
       ],
-      "title": "The Google Analytics of Things"
+      "title": ""
     },
     "102": {
       "complexity": "Intermediate",
@@ -268,15 +254,15 @@
       "title": "Rendering film, TV, and games media on GCP with OpenCue"
     },
     "104": {
-      "complexity": "",
-      "description": "",
+      "complexity": "Intermediate",
+      "description": "This session will be about Machine learning while using SQL and also how you can extend it to Google Colab/JupyterLab notebooks on Google Cloud Platform for further analysis. \nCheck out Google colab here: https://colab.research.google.com",
       "language": "English",
       "presentation": "",
       "speakers": [
         "polong_lin"
       ],
-      "tags": [ "Machine Learning" ],
-      "title": ""
+      "tags": [ "Machine Learning", "BigQuery" ],
+      "title": " Machine Learning at Scale with BigQuery"
     },
     "105": {
       "description": "A small break to stretch about",
@@ -310,42 +296,6 @@
     }
   },
   "speakers": {
-    "martin_hawksey": {
-      "bio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services. In these roles, he has supported staff in the exploration and adoption of innovative approaches to teaching and learning. Martin was also an early adopter of Google Apps Script and this tool regularly features in the solutions he publishes and often integrates with other Google products, such as Google Maps, Google Charts and Google Analytics. As Chief Innovation, Technology and Community Officer at the Association for Learning Technology (ALT) his work continues to focus on how Google services can be used to support the development of ALT's member community.",
-      "company": "Association for Learning Technology",
-      "companyLogo": "/images/alt.png",
-      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/alt.png?alt=media&token=4537f07e-d5ef-44d5-bbbf-6e8638236201",
-      "country": "",
-      "featured": false,
-      "name": "Martin Hawksey",
-      "photo": "/images/people/martin_hawksey.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/martin_hawksey.jpg?alt=media&token=29eb9952-0bda-4b9e-978a-cd3ddfd0d7fd",
-      "shortBio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/mhawksey",
-          "name": "Twitter"
-        },
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/mhawksey",
-          "name": "LinkedIn"
-        },
-        {
-          "icon": "website",
-          "link": "https://mashe.hawksey.info",
-          "name": "Blog"
-        },
-        {
-          "link": "https://alt.ac.uk/",
-          "icon": "website",
-          "name": "Website"
-        }
-      ],
-      "order": 0,
-      "title": "GDE G Suite"
-    },
     "arut_jinadit": {
       "bio": "Arut is currently a software engineering student at the School of Computing Science, University of Glasgow. On the other hand, he is also a freelance developer who works remotely from his home country. Most of his responsibilities are developing applications for both client-side and server-side. Arut is passionate about learning new technologies that could help increase his team members' productivity as well as sharing it with the community.",
       "company": " ",
@@ -364,7 +314,7 @@
           "name": "Medium"
         }
       ],
-      "order": 1,
+      "order": 0,
       "title": "A freelance software developer and a student"
     },
     "sharif_salah": {
@@ -395,7 +345,7 @@
           "link": "https://twitter.com/sharif_salah"
         }
       ],
-      "order": 2,
+      "order": 1,
       "title": "Technical Writer, Google"
     },
     "polong_lin": {
@@ -421,7 +371,7 @@
           "name": "Twitter"
         }
       ],
-      "order": 3,
+      "order": 2,
       "title": "Developer Advocate, Data Science & Machine Learning"
     }
   },
@@ -560,7 +510,7 @@
       "info": "",
       "name": "Late Googler",
       "price": 0,
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Nov 02",
       "url": "https://www.eventbrite.co.uk/e/gdg-glasgow-devfest-2019-tickets-68729015335"
     }
