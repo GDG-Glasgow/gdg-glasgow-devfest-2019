@@ -11,7 +11,7 @@
     },
     "dfua19-announced": {
       "backgroundColor": "#2196F3",
-      "brief": "It is official. GDG DevFest Glasgow 2019 is going to take place in Glasgow, on November 02.",
+      "brief": "It is official. GDG DevFest Glasgow 2019 is going to take place in Glasgow, on November 09.",
       "content": "It is official. GDG DevFest Glasgow 2019 is in motion. We do not have any details yet but will update this page as well as our social media once we confirm everything. Follow us on [Facebook](https://www.facebook.com/gdgglasgow/) and join [Meetup](https://www.meetup.com/Glasgow-New-Technology-Meetup/) to keep up with announcements and conference updates.",
       "image": "/images/posts/df19.jpg",
       "published": "2019-07-01",
@@ -137,7 +137,7 @@
           "startTime": "11:00",
           "endTime": "11:45",
           "sessions": [ {
-            "items": [ 109 ]
+            "items": [ 112 ]
           }]
         },
         {
@@ -179,7 +179,7 @@
           "startTime": "14:25",
           "endTime": "15:10",
           "sessions": [ {
-            "items": [ 109 ]
+            "items": [ 111 ]
           }]
         },
         {
@@ -198,7 +198,21 @@
         },
         {
           "startTime": "16:05",
-          "endTime": "18:00",
+          "endTime": "16:15",
+          "sessions": [ {
+            "items": [ 105 ]
+          }]
+        },
+        {
+          "startTime": "16:15",
+          "endTime": "17:00",
+          "sessions": [ {
+            "items": [ 101 ]
+          }]
+        },
+        {
+          "startTime": "",
+          "endTime": "",
           "sessions": [ {
             "items": [ 110 ]
           }]
@@ -213,17 +227,17 @@
   },
   "sessions": {
     "101": {
-      "complexity": "",
-      "description": "",
+      "complexity": "Intermediate",
+      "description": "Investment Banks have evolved productivity toolchains to support an approach to build and run applications on its premises for its over 1000s of developers. However, with a move towards cloud and containers, a new approach is needed. This talk will provide insights into how this change can be embraced through evaluating cloud-based development tools and processes.",
       "language": "English",
       "presentation": "",
       "speakers": [
-        ""
+        "leo_wang"
       ],
       "tags": [
-        ""
+        "Cloud"
       ],
-      "title": ""
+      "title": "Cloud Development: A journey focusing on improved productivity"
     },
     "102": {
       "complexity": "Intermediate",
@@ -293,6 +307,32 @@
       "description": "Time to unwind",
       "icon": "party",
       "title": "Networking"
+    },
+    "111": {
+      "complexity": "Intermediate",
+      "description": "This talk will look at how AI & ML can address today's cyber-challenges, such as the cyber-skills gap, dealing with the information deluge, and protecting the enterprise from cyber threats. Examples will also be shown on where and how ML can help. Finally, is AI and ML a cybersecurity silver bullet? We challenge the perceptions of ML and cybersecurity and explore the inconvenient truths.",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "david_stevenson"
+      ],
+      "tags": [
+        "AI", "Machine Learning", "Cyber Security"
+      ],
+      "title": "AI & Machine Learning: A Cyber-Security Silver-Bullet?"
+    },
+    "112": {
+      "complexity": "Intermediate",
+      "description": "This talk will present a brief introduction to visualising data with Google Maps and showing how to get a richer maps experience and interactivity. Learn what you can do beyond placing pins on the standard base map and see how you can create engaging experiences within Google maps to visualise rich geographical datasets with millions of data points quickly and easily.",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "steven_gray"
+      ],
+      "tags": [
+        "Google Maps", "GCP", "Google Cloud Platform"
+      ],
+      "title": "Not just a red pin! Making maps Beautiful with Custom Visualisations within Google Maps"
     }
   },
   "speakers": {
@@ -373,6 +413,62 @@
       ],
       "order": 2,
       "title": "Developer Advocate, Data Science & Machine Learning"
+    },
+    "leo_wang": {
+      "bio": "Leo is a development manager at Morgan Stanley. He leads a team in Glasgow delivering development tooling for more than 10k developers at Morgan Stanley across the global. Passionate about software development, he likes to digging into things to understand what works better.",
+      "company": "Morgan Stanley",
+      "companyLogo": "/images/logos/ms.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/Morgan_Stanley_Logo_1-1.png?alt=media&token=27239238-7a6a-4922-ba07-fb54a3c314f9",
+      "country": "United Kingdom",
+      "featured": false,
+      "name": "Leo Wang",
+      "photo": "/images/people/Leo.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/Leo.jpg?alt=media&token=7df034c6-51cd-43c3-975c-f9dc45f66d42",
+      "shortBio": "Leo is a development manager at Morgan Stanley.",
+      "socials": [],
+      "order": 3,
+      "title": "Development manager passionate about software development"
+    },
+    "david_stevenson": {
+      "bio": "David is with Technology Risk at Morgan Stanley, where he is Head of Cyber-Analytics Technology. His distinguished career includes running an AI start-up (where he was awarded patents for his work in Machine Learning); with the Ministry of Defence (building their first global CIRT), and installing one of the first fibre-optic Internet connections in Scotland (in his early days in academia). He has continued to work across multiple sectors and technologies, most recently focussing on AI and Machine Learning for the cyber-security domain in the Financial Services Industry.",
+      "company": "Morgan Stanley",
+      "companyLogo": "/images/logos/ms.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/Morgan_Stanley_Logo_1-1.png?alt=media&token=27239238-7a6a-4922-ba07-fb54a3c314f9",
+      "country": "United Kingdom",
+      "featured": false,
+      "name": "David Stevenson",
+      "photo": "/images/people/david.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/david.jpg?alt=media&token=ab43a169-d63d-403d-b3d8-980b4ffe24e5",
+      "shortBio": "David is with Technology Risk at Morgan Stanley, where he is Head of Cyber-Analytics Technology.",
+      "socials": [],
+      "order": 4,
+      "title": "Head of Cyber-Analytics Technology at Morgan Stanley"
+    },
+    "steven_gray": {
+      "bio": "Steven has been a spatial software developer for the past 10 years, making visualising complex datasets on maps easier. With over 20 years' professional software development under his belt, he has built multiple award-winning systems and his work has been featured in various worldwide media outlets (CNN, BBC, etc). In recent years, he has specialised in building mobile applications (mainly iOS) and systems that open up the world of data visualisation, mining and analysis to the masses. He can sometimes be found on StackOverflow – answering questions about Google Maps API and the iOS SDK. He also gives lectures and workshops to academics and industry partners on using Google Cloud Platform to create compelling visualisations to showcase on Google Maps and Google Earth. His current research focuses on distributed high-performance computing and analysing large datasets in real-time.",
+      "company": "University College London",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "United Kingdom",
+      "featured": false,
+      "name": "Steven Gray",
+      "photo": "/images/people/steven.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2019-eebd4.appspot.com/o/steven.jpg?alt=media&token=e065c17a-e586-4049-9c73-37814df90074",
+      "shortBio": "Steven has been a spatial software developer for the past 10 years, and is currently a Principal Teaching Fellow at University College London.",
+      "socials": [
+        {
+          "link": "https://www.twitter.com/frogo",
+          "icon": "twitter",
+          "name": "Twitter"
+        },
+        {
+          "link": "https://github.com/sjg",
+          "icon": "github",
+          "name": "Github"
+        }
+      ],
+      "order": 5,
+      "title": "Spatial Software Developer"
     }
   },
   "team": [
